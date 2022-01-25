@@ -3,7 +3,7 @@ from pyowm.utils.config import get_default_config
 config_dict = get_default_config()
 config_dict['language'] = 'ua' 
 
-owm = OWM('9e03c157a07bd9b2d70b7c27d1781577' , config_dict)
+owm = OWM( , config_dict)
 mgr = owm.weather_manager()
 
 place = input("В якому місті/країні? ")
